@@ -26,8 +26,30 @@ public class CardTrickICE1 {
             c1.setSuits("hearts");//random method suit 
         }
         //step 2:take input 
+            int suits = (int)(Math.random() * 4);
+           c1.setSuits(suits);//random method suit 
         
+         Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
         //step 3: match with array 
     }
-    
+    for(Suits: suit : Suits.values()){
+  {
+            for(Value value : Value values)List<> deck;
+{
+        suits.add(new Card(suits, value));
+        }
+    Collections.shuffle(deck);
+        for (int i = 0; i <5; i++){
+        System.out.println(deck.get(magicHand(i).getValue() 
+                + "of" + deck.get(i).getSuits()));
+        }
+        return null;
+        }
+    } 
+
+    private Object magicHand(int i) {
+        return null;
+}
+
 }
